@@ -18,6 +18,6 @@ for card in deck_generated:
 print("")
 print("Mélange du deck")
 print("")
-random.shuffle(deck_generated)
+deck.shuffle_deck(deck_generated)
 for card in deck_generated:
     print(card.__str__())

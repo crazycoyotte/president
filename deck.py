@@ -15,6 +15,7 @@ class Deck:
         main_deck = [card.Card(value, color) for value in values for color in colors]
         return main_deck
 
-    def shuffle_deck(self):
+    def shuffle_deck(self, deck):
         """Shuffle the deck"""
-        random.shuffle(self)
+        random.shuffle(deck)
+        return self
