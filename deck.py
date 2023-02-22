@@ -11,7 +11,7 @@ class Deck:
         """Deck generation
         :return list"""
         values = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
-        colors = ["pique", "coeur", "carreaux", "trefle"]
+        colors = ["♠", "♥", "♦", "♣"]
         main_deck = [card.Card(value, color) for value in values for color in colors]
         return main_deck
 

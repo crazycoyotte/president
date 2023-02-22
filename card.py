@@ -35,4 +35,4 @@ class Card:
                 self.name = "Roi"
 
     def __str__(self):
-        return f'La carte {self.name} de couleur {self.color}'
+        return f'{self.name} de {self.color}'
